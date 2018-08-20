@@ -9,7 +9,7 @@ header {
 
 .cuerpo {
     height: 100vh;
-    background: #ffffff;
+    background: #f4f4ee;
     padding: 2em;
     min-width: 300px;
     max-width: 1300px;
@@ -32,6 +32,7 @@ footer {
 }
 
 h1 {
+    font-family: Hack, monospace;
     font-weight: 700;
     font-size: 2rem;
     color: #000000;
