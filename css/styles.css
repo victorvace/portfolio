@@ -100,7 +100,24 @@ p {
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 460px) {
+    .grid-item p {
+        font-weight: 300;
+        color: #000000;
+        opacity: .6;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .grid-item {
+        padding: 20px;
+        margin-top: 15px;
+        width: 66px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 460px){
     .grid-item p {
         font-weight: 300;
         color: #000000;
