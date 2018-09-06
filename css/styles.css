@@ -10,7 +10,7 @@ header {
 .cuerpo {
     height: 100vh;
     background: #FAFAFA;
-    padding: 2em;
+    padding: 0;
     min-width: 300px;
     max-width: 1300px;
     margin: 0 auto 0 auto;
@@ -26,7 +26,7 @@ section {
     font-weight: 700;
     flex: 1;
     background: #ffffff;
-    padding: 2em;
+    padding: 1.5em;
 }
 
 footer {
@@ -244,7 +244,7 @@ a {
     text-decoration: none;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 500px) {
 
     #main {
         -webkit-flex-flow: column;
